@@ -95,6 +95,7 @@ class WriteCurrentMultiTurnZeroMsg(_BaseMsg):
     _sent_parameters = [
         _CanMsgParam('encoder_zero_offset', 4, 4, lambda x: x),
     ]
+    _received_parameters = []
 
 
 class ReadSingleTurnEncoderMsg(_BaseMsg):
